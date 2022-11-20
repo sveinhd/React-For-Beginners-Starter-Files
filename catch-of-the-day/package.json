@@ -28,6 +28,20 @@
     "now-build": "npm run build && mv build dist",
     "styles:watch": "npm run styles -- -w"
   },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": [
+          "*.js",
+          "*.jsx"
+        ]
+      }
+    ]
+  },
   "browserslist": [
     ">0.2%",
     "not ie <= 11",
